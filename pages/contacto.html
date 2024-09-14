@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
     <title>Contacto</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul class="d-flex">
-                <li>Nicolás Ledesma</li>
-                <li><a href="../index.html" class="buttonav">Inicio</a></li>
-                <li><a href="experiencialaboral.html"class="buttonav">Experiencia Laboral</a></li>
-                <li><a href="servicios.html"class="buttonav">Servicios</a></li>
-                <li><a href="#" class="buttonav">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="d-flex">
+          <li>Nicolás Ledesma</li>
+          <li class="mt-7"><a href="../index.html" class="buttonav">Inicio</a></li>
+          <li class="mt-7">
+            <a href="experiencialaboral.html" class="buttonav"
+              >Experiencia Laboral</a
+            >
+          </li>
+          <li class="mt-7"><a href="servicios.html" class="buttonav">Servicios</a></li>
+          <li class="mt-7"><a href="#" class="buttonav">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <div>
         <div>
-            <div class="inputext">
-                <div class="">
-                    <label for="">Nombre:</label>
-                    <input type="text" class="formuinput">
-                </div>
-                <div>
-                    <label for="">Apellido:</label>
-                    <input type="text">
-                </div>
-            </div>
-            <div class="inputext">
-                <div>
-                    <label for="">Empresa:</label>
-                    <input type="text" placeholder="Ingresa el nombre de tu empresa aca">
-                </div>
-                <div>
-                    <label for="">Telefono:</label>
-                    <input type="number" placeholder="Ej: 1121336697">
-                </div>
-            </div>
             <div>
-                <div class="inputext">
-                    <label for="">Email:</label>
-                    <input type="email">
-                </div>
-            </div>
-            <div>
-                <div class="inputext" >
-                    <button type="" class="buttondes">Enviar</button>
-                </div>
+                <h2 class="titulo mt-3">Contacto</h2>
             </div>
         </div>
+        <div class="inputext mt-5">
+          <div class="mr-5">
+            <label for="" class="titulo">Nombre:</label>
+            <input type="text" class="formuinput bordertext" autofocus/>
+          </div>
+          <div>
+            <label for="" class="titulo">Apellido:</label>
+            <input type="text" class="formuinput bordertext" />
+          </div>
+        </div>
+        <div class="inputext mt-3">
+          <div class="mr-5">
+            <label for="" class="titulo">Email:</label>
+            <input
+              type="email"
+              class="formuinput bordertext"
+              placeholder="Ingresa tu email aca"
+            />
+          </div>
+          <div>
+            <label for="" class="titulo">Telefono:</label>
+            <input
+              type="number"
+              class="formuinput bordertext"
+              placeholder="Ej: 1121336697"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="inputext mt-3">
+            <label for="" class="titulo">Mensaje</label>
+            <textarea
+              name=""
+              id=""
+              rows="5"
+              cols="60"
+              class="bordertext"
+            ></textarea>
+          </div>
+        </div>
+        <div>
+          <div class="inputext mt-3 mb-5">
+            <button type="" class="buttondes">Enviar</button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footerbg m">
-        <img src="../utils/icons8-whatsapp-70.png" alt="" class="iconos" />
-        <img src="../utils/icons8-linkedin-70.png" alt="" class="iconos" />
-        <img src="../utils/icons8-github-70.png" alt="" class="iconos" />
-        <img src="../utils/icons8-nuevo-post-70.png" alt="" class="iconos" />
-      </footer>
-</body>
+      <img src="../utils/icons8-whatsapp-70.png" alt="" class="iconos" />
+      <img src="../utils/icons8-linkedin-70.png" alt="" class="iconos" />
+      <img src="../utils/icons8-github-70.png" alt="" class="iconos" />
+      <img src="../utils/icons8-nuevo-post-70.png" alt="" class="iconos" />
+    </footer>
+  </body>
 </html>
