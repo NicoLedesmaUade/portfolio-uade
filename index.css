@@ -28,9 +28,21 @@
 .parrafo{
     width: 50%;
 }
+.div-80{
+    width: 80%;
+}
+.div-50{
+    width: 50%;
+}
 
 .ml-10{
     margin-left: 10%;
+}
+.ml-5{
+    margin-left: 5%;
+}
+.mr-5{
+    margin-right: 5%;
 }
 .mt-5{
     margin-top: 5%;
@@ -38,7 +50,7 @@
 .d-flex{
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
@@ -50,7 +62,17 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
 }
-
+.lista {
+    list-style-type: none
+}
+.formacion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
 nav ul li {
     font-size: 20px;
     color: #D1D1D1;
@@ -96,4 +118,42 @@ nav{
 
 .text-center{
     text-align: center;
+    
+}
+.d-flexplabo{
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: start;
+}
+.d-flexplabo2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+.buttondes{
+    border-radius: 6px;
+    background-color: #4B4E6D;
+    padding: 6px 20px;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+
+.inputext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.formuinput{
+    width: 70%;
+    height: 100%;
 }
