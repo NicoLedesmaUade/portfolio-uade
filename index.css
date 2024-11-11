@@ -30,7 +30,11 @@ body.dark-mode {
     background-color: #8d7bff;
 }
 .card:hover{
-    box-shadow: 10px 10px 11px 0px white;
+    box-shadow: 10px 10px 11px 0px #3b1ef9;
+    cursor: pointer;
+}
+body.dark-mode .card:hover{
+    box-shadow: 10px 10px 11px 0px #fa1239;
     cursor: pointer;
 }
 body.dark-mode .card{
@@ -39,6 +43,7 @@ body.dark-mode .card{
 .textocard{
     color: black;
 }
+
 body.dark-mode .textocard{
     color: white;
 }
@@ -111,6 +116,10 @@ body.dark-mode ul  body.dark-mode li {
 }
 body.dark-mode .buttoncolor{
     background-color:  #ff7b91;
+}
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: white !important;
 }
 .mt10{
     margin-top: 15%;
